@@ -1,0 +1,25 @@
+{
+    "auto_complete": true,                    //自动补全
+    "auto_find_in_selection": true,           //开启选中范围内搜索
+    "auto_match_enabled": true,               //自动匹配
+    "bold_folder_labels": true,               //侧边栏文件夹显示加粗，区别于文件
+
+    "default_line_ending": "unix",            //使用 unix 风格的换行符
+    "draw_minimap_border": true,              //用于右侧代码预览时给所在区域加上边框，方便识别
+    "ensure_newline_at_eof_on_save": true,    //文件末尾自动保留一个空行
+    "fade_fold_buttons": false,               //默认显示行号右侧的代码段闭合展开三角号
+    "font_size": 11,
+    "highlight_line": true,                   //当前行高亮
+    "highlight_modified_tabs": true,          //高亮未保存文件
+    "ignored_packages":
+    [
+        "Vintage"
+    ],                                        //sublime自带配置，不知何意
+    "save_on_focus_lost": true,               //窗口失焦立即保存文件
+    "tab_size": 4,
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,         //把代码 tab 对齐转换为空格对齐
+    "trim_trailing_white_space_on_save": true,//自动移除行尾多余空格
+    "update_check": false,                    //关闭自动更新
+    "word_wrap": "true"                       //设置自动换行
+}
