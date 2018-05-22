@@ -21,5 +21,6 @@
     "translate_tabs_to_spaces": true,         //把代码 tab 对齐转换为空格对齐
     "trim_trailing_white_space_on_save": true,//自动移除行尾多余空格
     "update_check": false,                    //关闭自动更新
-    "word_wrap": "true"                       //设置自动换行
+    "word_wrap": "true",                       //设置自动换行
+    "draw_white_space": "all"                  //显示空格
 }
