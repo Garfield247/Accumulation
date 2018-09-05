@@ -70,6 +70,8 @@ plugins=(zsh-autosuggestions)
 配置
 
 ```
+sudo vi ~/.zshrc
+#plugins处添加zsh-autosuggestions
 plugins=(
   git
   zsh-autosuggestions
@@ -104,18 +106,8 @@ source ~/.zshrc
 9. 字体乱码
 
    ```
-   执行以下命令来安装缺失的字体：
-   
-   wget https://raw.githubusercontent.com/powerline/powerline/develop/font/10-powerline-symbols.conf
-   
-   wget https://raw.githubusercontent.com/powerline/powerline/develop/font/PowerlineSymbols.otf
-   
-   sudo mkdir /usr/share/fonts/OTF
-   
-   sudo cp 10-powerline-symbols.conf /usr/share/fonts/OTF/ 
-   
-   sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
-   sudo mv PowerlineSymbols.otf /usr/share/fonts/OTF/
+   git clone https://github.com/powerline/fonts.git
+   sudo ./fonts/install.sh
    ```
 
    
