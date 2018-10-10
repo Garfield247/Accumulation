@@ -6,12 +6,13 @@
    cd /etc/yum.repos.d/
    touch mongodb-org.repo
    cat mongodb-org.repo
-
-   [mongodb-org]
+   
+   [mongodb-org-3.4]
    name=MongoDB Repository
-   baseurl=http://mirrors.aliyun.com/mongodb/yum/redhat/7Server/mongodb-org/3.2/x86_64/
+   baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.4/x86_64/
    gpgcheck=0
    enabled=1
+   #gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc
    ```
 
 2. 更新`yum`源
