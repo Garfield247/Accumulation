@@ -5,7 +5,7 @@
    ```
    cd /etc/yum.repos.d/
    touch mongodb-org.repo
-   cat mongodb-org.repo
+   vi mongodb-org.repo
    
    [mongodb-org-3.4]
    name=MongoDB Repository
@@ -37,7 +37,7 @@
 5. 配置远程访问
 
    ```
-   vi /etc/mongo.conf
+   vi /etc/mongod.conf
 
    BindIP 127.0.0.1 ==> 0.0.0.0
    ```
