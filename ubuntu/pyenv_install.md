@@ -26,7 +26,13 @@
    $ exec $SHELL
    ```
 
-5. #### Sublime配置Python
+5. #### 下载python解决方案
+
+   1. 将要安装的python版本提前下载好放置`~/.pyenv/cache`目录下，没有则创建，
+   2. 使用`python install -v.v.v`
+   3. 若未解决尝试删除`/tmp`目录下与python相关的文件
+
+6. #### Sublime配置Python
 
    ###### Sublime text 3 和 Anaconda 不能智能识别 pyenv下python路径，默认仍然指向本机自带python。准确的说Sublime text 3在桌面图标启动下不能识别user的$PATH，默认是root的￥PATH，而Anaconda 在 Virtualenv environment下根本找不到正确的bin，原因未知。土人办法，直接更改相应的path。
 
