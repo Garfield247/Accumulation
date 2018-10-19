@@ -32,7 +32,17 @@
    2. 使用`python install -v.v.v`
    3. 若未解决尝试删除`/tmp`目录下与python相关的文件
 
-6. #### Sublime配置Python
+6.    
+
+   ```
+   sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus
+   sudo apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev
+   sudo apt-get install zlib1g-dev libsqlite3-dev tk-dev
+   sudo apt-get install libssl-dev openssl
+   sudo apt-get install libffi-dev
+   ```
+
+7. #### Sublime配置Python
 
    ###### Sublime text 3 和 Anaconda 不能智能识别 pyenv下python路径，默认仍然指向本机自带python。准确的说Sublime text 3在桌面图标启动下不能识别user的$PATH，默认是root的￥PATH，而Anaconda 在 Virtualenv environment下根本找不到正确的bin，原因未知。土人办法，直接更改相应的path。
 
