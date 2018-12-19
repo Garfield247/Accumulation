@@ -9,7 +9,7 @@ def li(path):
         if str(f) != '.git':
             fp=os.path.join(path,f)
             if os.path.isfile(fp):
-                rfp.write('    ['+f+']('+fp+')\n')
+                rfp.write('    ['+f+']('+fp+')\n\n')
             elif os.path.isdir(fp):
                 rfp.write('- %s\n'%str(fp).replace('./',''))
                 li(fp)
