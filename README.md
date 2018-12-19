@@ -1,5 +1,7 @@
 # README
+
 - Centos7
+
     [Centos7_MongoDB_install.md](./Centos7/Centos7_MongoDB_install.md)
 
     [RedisLive配置手册.md](./Centos7/RedisLive配置手册.md)
@@ -17,6 +19,7 @@
     [守护进程.md](./Centos7/守护进程.md)
 
 - linux
+
     [文件操作.md](./linux/文件操作.md)
 
     [认识Linux.md](./linux/认识Linux.md)
@@ -32,11 +35,13 @@
     [linux开机启动脚本.md](./linux/linux开机启动脚本.md)
 
 - Sublime
+
     [sublime_setting.json](./Sublime/sublime_setting.json)
 
     [python.tmpl](./Sublime/python.tmpl)
 
 - 机器学习
+
     [03 pandas层次化索引.md](./机器学习/03 pandas层次化索引.md)
 
     [04 Pandas数据处理.md](./机器学习/04 Pandas数据处理.md)
@@ -60,6 +65,7 @@
     [08机器学习KNN.md](./机器学习/08机器学习KNN.md)
 
 - flask
+
     [数据模型Model.md](./flask/数据模型Model.md)
 
     [Flask项目部署.md](./flask/Flask项目部署.md)
@@ -83,9 +89,11 @@
     [模板引擎.md](./flask/模板引擎.md)
 
 - deepin
+
     [deepin_TouchPad_setting.md](./deepin/deepin_TouchPad_setting.md)
 
 - ubuntu
+
     [ubuntu_apt_source.md](./ubuntu/ubuntu_apt_source.md)
 
     [ubuntu备份还原.md](./ubuntu/ubuntu备份还原.md)
@@ -121,11 +129,13 @@
     [tree.py](./tree.py)
 
 - python
+
     [Python3 Paramiko 远程shell.md](./python/Python3 Paramiko 远程shell.md)
 
     [Scrapyd.md](./python/Scrapyd.md)
 
 - utils
+
     [weibo.json](./utils/weibo.json)
 
     [xpath.crx](./utils/xpath.crx)

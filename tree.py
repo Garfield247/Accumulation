@@ -2,7 +2,7 @@ import os
 
 readme = './README.md'
 rfp = open(readme,'w',encoding='utf-8')
-rfp.write('# README\n')
+rfp.write('# README\n\n')
 bd = '.'
 def li(path):
     for f in os.listdir(path):
@@ -11,7 +11,7 @@ def li(path):
             if os.path.isfile(fp):
                 rfp.write('    ['+f+']('+fp+')\n\n')
             elif os.path.isdir(fp):
-                rfp.write('- %s\n'%str(fp).replace('./',''))
+                rfp.write('- %s\n\n'%str(fp).replace('./',''))
                 li(fp)
 
 li(bd)
