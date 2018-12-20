@@ -2,11 +2,11 @@
 
 - Centos7
 
+    [Nginx安装.md](./Centos7/Nginx安装.md)
+
     [Centos7_MongoDB_install.md](./Centos7/Centos7_MongoDB_install.md)
 
     [RedisLive配置手册.md](./Centos7/RedisLive配置手册.md)
-
-    [Nginx 安装.md](./Centos7/Nginx 安装.md)
 
     [Flask项目部署.md](./Centos7/Flask项目部署.md)
 
@@ -22,9 +22,13 @@
 
     [文件操作.md](./linux/文件操作.md)
 
+    [linux常用脚本.md](./linux/linux常用脚本.md)
+
     [认识Linux.md](./linux/认识Linux.md)
 
     [软件安装.md](./linux/软件安装.md)
+
+    [linux定时任务.md](./linux/linux定时任务.md)
 
     [系统服务.md](./linux/系统服务.md)
 
@@ -32,7 +36,7 @@
 
     [目录结构及VIM.md](./linux/目录结构及VIM.md)
 
-    [linux开机启动脚本.md](./linux/linux开机启动脚本.md)
+    [linux开机启动任务.md](./linux/linux开机启动任务.md)
 
 - Sublime
 
@@ -40,29 +44,29 @@
 
     [python.tmpl](./Sublime/python.tmpl)
 
-- 机器学习
+- MachineLearning
 
-    [03 pandas层次化索引.md](./机器学习/03 pandas层次化索引.md)
+    [02Pandas.md](./MachineLearning/02Pandas.md)
 
-    [04 Pandas数据处理.md](./机器学习/04 Pandas数据处理.md)
+    [09普通线性回归、岭回归、Lasso回归.md](./MachineLearning/09普通线性回归、岭回归、Lasso回归.md)
 
-    [02Pandas.md](./机器学习/02Pandas.md)
+    [10逻辑蒂斯.md](./MachineLearning/10逻辑蒂斯.md)
 
-    [09普通线性回归、岭回归、Lasso回归.md](./机器学习/09普通线性回归、岭回归、Lasso回归.md)
+    [03Pandas的拼接操作.md](./MachineLearning/03Pandas的拼接操作.md)
 
-    [06 matplotlib.md](./机器学习/06 matplotlib.md)
+    [06matplotlib.md](./MachineLearning/06matplotlib.md)
 
-    [10逻辑蒂斯.md](./机器学习/10逻辑蒂斯.md)
+    [03pandas层次化索引.md](./MachineLearning/03pandas层次化索引.md)
 
-    [03Pandas的拼接操作.md](./机器学习/03Pandas的拼接操作.md)
+    [04Pandas数据处理.md](./MachineLearning/04Pandas数据处理.md)
 
-    [IPython与Numpy.jpg](./机器学习/IPython与Numpy.jpg)
+    [IPython与Numpy.jpg](./MachineLearning/IPython与Numpy.jpg)
 
-    [01numpy.md](./机器学习/01numpy.md)
+    [01numpy.md](./MachineLearning/01numpy.md)
 
-    [07数据加载与透视表.md](./机器学习/07数据加载与透视表.md)
+    [07数据加载与透视表.md](./MachineLearning/07数据加载与透视表.md)
 
-    [08机器学习KNN.md](./机器学习/08机器学习KNN.md)
+    [08机器学习KNN.md](./MachineLearning/08机器学习KNN.md)
 
 - flask
 
@@ -106,8 +110,6 @@
 
     [MongoDB_install.md](./ubuntu/MongoDB_install.md)
 
-    [ubuntu Typora安装.md](./ubuntu/ubuntu Typora安装.md)
-
     [ubuntu_wechat_install.md](./ubuntu/ubuntu_wechat_install.md)
 
     [ubuntu——python3_tk_error.md](./ubuntu/ubuntu——python3_tk_error.md)
@@ -116,13 +118,15 @@
 
     [ubuntu_deepinwine_software.md](./ubuntu/ubuntu_deepinwine_software.md)
 
+    [ubuntu_Typora安装.md](./ubuntu/ubuntu_Typora安装.md)
+
     [ubuntu_sougouInput_install.md](./ubuntu/ubuntu_sougouInput_install.md)
 
     [dpkg.md](./ubuntu/dpkg.md)
 
-    [pyenv_install.md](./ubuntu/pyenv_install.md)
+    [Ubuntu安装oh_my_zsh.md](./ubuntu/Ubuntu安装oh_my_zsh.md)
 
-    [Ubuntu安装oh my zch.md](./ubuntu/Ubuntu安装oh my zch.md)
+    [pyenv_install.md](./ubuntu/pyenv_install.md)
 
     [README.md](./README.md)
 
@@ -130,9 +134,9 @@
 
 - python
 
-    [Python3 Paramiko 远程shell.md](./python/Python3 Paramiko 远程shell.md)
-
     [Scrapyd.md](./python/Scrapyd.md)
+
+    [Python3_Paramiko远程shell.md](./python/Python3_Paramiko远程shell.md)
 
 - utils
 

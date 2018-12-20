@@ -1,4 +1,4 @@
-# Ubuntu安装oh my zch
+# Ubuntu安装oh my zsh
 
 1. #### 安装zsh
 
