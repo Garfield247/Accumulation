@@ -36,7 +36,7 @@
       sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libffi-dev
       ```
 
-   3. 使用`python install -v.v.v`
+   3. 使用`pyenv install v.v.v`
 
    4. 若未解决尝试删除`/tmp`目录下与python相关的文件
 
