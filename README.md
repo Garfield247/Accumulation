@@ -42,6 +42,8 @@
 
     [sublime_setting.json](./Sublime/sublime_setting.json)
 
+    [sublime_License.txt](./Sublime/sublime_License.txt)
+
     [python.tmpl](./Sublime/python.tmpl)
 
 - MachineLearning
@@ -127,6 +129,8 @@
     [Ubuntu安装oh_my_zsh.md](./ubuntu/Ubuntu安装oh_my_zsh.md)
 
     [pyenv_install.md](./ubuntu/pyenv_install.md)
+
+    [apt_info.md](./ubuntu/apt_info.md)
 
     [README.md](./README.md)
 
