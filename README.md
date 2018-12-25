@@ -46,6 +46,16 @@
 
     [python.tmpl](./Sublime/python.tmpl)
 
+- Java
+
+    [03_Java发展历史.md](./Java/03_Java发展历史.md)
+
+    [02_Java主要特性.md](./Java/02_Java主要特性.md)
+
+    [04_Java基本语法.md](./Java/04_Java基本语法.md)
+
+    [01_Java简介.md](./Java/01_Java简介.md)
+
 - MachineLearning
 
     [02Pandas.md](./MachineLearning/02Pandas.md)
