@@ -12,14 +12,18 @@ ps -ef| grep tomcat|awk '{print $2}'|xargs kill -9
 
 ```shell
 #!/bin/bash
-
-sp_pid=`ps -ef | grep KEYWORD | grep -v grep | awk '{print $2}'`
-if [ -z "$sp_pid" ];
+KEYWORD="keyword"
+pids=`ps -ef | grep $KEYWORD | grep -v grep | awk '{print $2}'`
+if [ -z "$pids" ];
 then
-    echo "[ not find KEYWORD pid ]"
+    echo "[ not find $KEYWORD pid ]"
 else
-    echo "find result: $sp_pid "
-    kill -9 $sp_pid
+    echo "find result: $pids "
 fi
+for pid in pids
+do
+	kill -9 $pid
+	echo "kill $pid"
+done
 ```
 

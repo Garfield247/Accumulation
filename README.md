@@ -20,6 +20,8 @@
 
 - linux
 
+    [linux_shell教程.md](./linux/linux_shell教程.md)
+
     [文件操作.md](./linux/文件操作.md)
 
     [linux常用脚本.md](./linux/linux常用脚本.md)
@@ -50,9 +52,13 @@
 
     [03_Java发展历史.md](./Java/03_Java发展历史.md)
 
+    [05_Java面向对象.md](./Java/05_Java面向对象.md)
+
     [02_Java主要特性.md](./Java/02_Java主要特性.md)
 
     [04_Java基本语法.md](./Java/04_Java基本语法.md)
+
+    [06_Java基本数据类型.md](./Java/06_Java基本数据类型.md)
 
     [01_Java简介.md](./Java/01_Java简介.md)
 
