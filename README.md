@@ -32,6 +32,8 @@
 
     [linux定时任务.md](./linux/linux定时任务.md)
 
+    [.~linux_shell教程.md](./linux/.~linux_shell教程.md)
+
     [系统服务.md](./linux/系统服务.md)
 
     [mongodb_data_migration.md](./linux/mongodb_data_migration.md)
