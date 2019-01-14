@@ -1,5 +1,7 @@
 # README
 
+![avatar](./utils/linux.jpg)
+
 - Centos7
 
     [Nginx安装.md](./Centos7/Nginx安装.md)
@@ -161,6 +163,8 @@
     [Python3_Paramiko远程shell.md](./python/Python3_Paramiko远程shell.md)
 
 - utils
+
+    [linux.jpg](./utils/linux.jpg)
 
     [weibo.json](./utils/weibo.json)
 

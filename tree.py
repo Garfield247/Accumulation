@@ -9,6 +9,8 @@ import os
 readme = './README.md'
 rfp = open(readme,'w',encoding='utf-8')
 rfp.write('# README\n\n')
+rfp.write('![avatar](./utils/linux.jpg)\n\n')
+
 bd = '.'
 def li(path):
     for f in os.listdir(path):
