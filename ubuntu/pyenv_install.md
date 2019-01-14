@@ -1,4 +1,8 @@
-1. ####  将 pyenv 检出到你想安装的目录。建议路径为： `$HOME/.pyenv` 
+# Pyenv_Install
+
+##  安装
+
+1. ####  将 pyenv 检出到你想安装的目录。建议路径为： `$HOME/.pyenv`
 
    ```shell
    cd
@@ -25,39 +29,67 @@
    ```shell
    exec $SHELL
    ```
+   
 
-5. #### 下载python解决方案
+   ## 使用
 
-   1. 将要安装的python版本提前下载好放置`~/.pyenv/cache`目录下，没有则创建
+   - `pyenv install --list `
+        列出可安装版本 
 
-   2. 安装Python在Ubuntu下的依赖
+   - `pyenv install <version> `
+        安装对应版本 
+
+   - `pyenv install -v <version> `
+        安装对应版本，若发生错误，可以显示详细的错误信息 
+
+   - `pyenv versions `
+        显示当前使用的python版本 
+
+   - `pyenv which python `
+        显示当前python安装路径
+
+   - ` pyenv global <version> `
+        设置默认Python版本 
+
+   - `pyenv local <version> `
+        当前路径创建一个.python-version, 以后进入这个目录自动切换为该版本
+
+   - ` pyenv shell <version> `
+        当前shell的session中启用某版本，优先级高于global 及 local
+
+   
+
+   ## 在pyenv 下安装Python（3.6.4为例）
+
+   1. 将要安装的python版本的tar.xz格式的源码包提前下载好放置`~/.pyenv/cache`目录下，没有cache文件夹则创建
+
+      ```shell
+      mkdir ~/.pyenv/cache
+      wget -P ~/.pyenv/cache https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
+      ```
+
+   2. 安装Python在Ubuntu下的依赖(python3.X 通用)
 
       ```shell
       sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libffi-dev
       ```
 
-   3. 使用`pyenv install v.v.v`
+   3. 使用`pyenv install <version> `命令进行安装
 
-   4. 若未解决尝试删除`/tmp`目录下与python相关的文件
-
-6. ###### Sublime text 3 和 Anaconda 不能智能识别 pyenv下python路径，默认仍然指向本机自带python。准确的说Sublime text 3在桌面图标启动下不能识别user的$PATH，默认是root的￥PATH，而Anaconda 在 Virtualenv environment下根本找不到正确的bin，原因未知。土人办法，直接更改相应的path。
-
-   1. 添加新的builde system，然后配置如下：
-
-      ```json
-      { 
-        "cmd": ["python3.4","-u", "$file"], //强制执行python3.4版本，可替换成需要的版本
-        "path": "$PATH:/home/user/.pyenv/shims:/home/user/.pyenv/bin"
-       }
+      ```
+      pyenv install 3.6.4
       ```
 
-   2. 为Anaconda添加配置如下：
+      **若报错尝试删除`/tmp`目录下与python相关的文件**
 
-      ```json
-      {
-      "python_interpreter": "/home/user/.pyenv/shims/python"
-      }
+   4. 将全局Python版本设置为3.6.4
+
+      ```
+      pyenv global 3.6.4
       ```
 
-      ​
+      **重启Terminal 输入`python -V`若输出3.6.4则代表配置成功**
+
+      
+
 
