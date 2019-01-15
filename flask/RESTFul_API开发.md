@@ -182,34 +182,40 @@
        def get(self, uid):
          	# 返回数据为字典类型
            return {'User': 'GET'}
-
+   
        def put(self, uid):
            return {'User': 'PUT'}
-
+   
        def delete(self, uid):
            return {'User': 'DELETE'}
-
-
-   class UserListAPI(Resource):
+       
+    class UserListAPI(Resource):
        def get(self):
            return {'UserList': 'GET'}
-
        def post(self):
            return {'UserList': 'POST'}
-
-   # 将资源添加到API，添加时可以指定多个路由地址
-   api.add_resource(UserAPI, '/users/<int:uid>', '/u/<int:uid>')
-   api.add_resource(UserListAPI, '/users')
-   # 若创建Api时没有指定app，后面初始化app时要写在添加资源之后
-   # api.init_app(app)
+   
    ```
 
-3. 添加认证
+   将资源添加到API，添加时可以指定多个路由地址
 
-   ```python
+   ```
+   api.add_resource(UserAPI, '/users/<int:uid>', '/u/<int:uid>')
+   api.add_resource(UserListAPI, '/users')
+   ```
+
+   若创建Api时没有指定app，后面初始化app时要写在添加资源之后
+
+   ```
+   api.init_app(app)
+   ```
+
+   添加认证
+
+3. ```python
    class UserAPI(Resource):
-       # 添加认证
-       decorators = [auth.login_required]
+          # 添加认证
+          decorators = [auth.login_required]
    ```
 
 4. 基于token的认证
