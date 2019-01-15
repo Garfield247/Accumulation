@@ -34,8 +34,6 @@
 
     [linux定时任务.md](./linux/linux定时任务.md)
 
-    [.~linux_shell教程.md](./linux/.~linux_shell教程.md)
-
     [系统服务.md](./linux/系统服务.md)
 
     [mongodb_data_migration.md](./linux/mongodb_data_migration.md)
@@ -92,27 +90,25 @@
 
 - flask
 
-    [数据模型Model.md](./flask/数据模型Model.md)
+    [03_flask表单.md](./flask/03_flask表单.md)
 
-    [Flask项目部署.md](./flask/Flask项目部署.md)
+    [05_数据模型Model.md](./flask/05_数据模型Model.md)
 
-    [帖子管理(1).md](./flask/帖子管理(1).md)
+    [01_Flask入门.md](./flask/01_Flask入门.md)
 
-    [flask表单.md](./flask/flask表单.md)
+    [06_Flask项目.md](./flask/06_Flask项目.md)
+
+    [02_模板引擎.md](./flask/02_模板引擎.md)
+
+    [09_Flask项目部署.md](./flask/09_Flask项目部署.md)
+
+    [08_帖子管理.md](./flask/08_帖子管理.md)
 
     [RESTFul_API开发.md](./flask/RESTFul_API开发.md)
 
-    [文件上传及邮件发送.md](./flask/文件上传及邮件发送.md)
+    [07_用户管理.md](./flask/07_用户管理.md)
 
-    [Flask入门.md](./flask/Flask入门.md)
-
-    [Flask项目.md](./flask/Flask项目.md)
-
-    [帖子管理.md](./flask/帖子管理.md)
-
-    [用户管理.md](./flask/用户管理.md)
-
-    [模板引擎.md](./flask/模板引擎.md)
+    [04_文件上传及邮件发送.md](./flask/04_文件上传及邮件发送.md)
 
 - deepin
 
