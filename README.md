@@ -26,11 +26,7 @@
 
 - Linux/Common
 
-    [linux_shell教程.md](./Linux/Common/linux_shell教程.md)
-
     [文件操作.md](./Linux/Common/文件操作.md)
-
-    [linux常用脚本.md](./Linux/Common/linux常用脚本.md)
 
     [认识Linux.md](./Linux/Common/认识Linux.md)
 
@@ -175,6 +171,12 @@
 - Language/Python/Other
 
     [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
+
+- Language/Shell
+
+    [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
+
+    [linux常用脚本.md](./Language/Shell/linux常用脚本.md)
 
 
 > 本目录结构由./.tree.py自动生成
