@@ -1,170 +1,179 @@
-# README
+# 目录
 
-![avatar](./utils/linux.jpg)
+![avatar](./Utils/linux.jpg)
 
-- Centos7
+- Utils
 
-    [Nginx安装.md](./Centos7/Nginx安装.md)
+    [linux.jpg](./Utils/linux.jpg)
 
-    [Centos7_MongoDB_install.md](./Centos7/Centos7_MongoDB_install.md)
+- Utils/Sublime
 
-    [RedisLive配置手册.md](./Centos7/RedisLive配置手册.md)
+    [sublime_setting.json](./Utils/Sublime/sublime_setting.json)
 
-    [Flask项目部署.md](./Centos7/Flask项目部署.md)
+    [sublime_License.txt](./Utils/Sublime/sublime_License.txt)
 
-    [CentOS7相关配置.md](./Centos7/CentOS7相关配置.md)
+    [python.tmpl](./Utils/Sublime/python.tmpl)
 
-    [Centos7时区更改.md](./Centos7/Centos7时区更改.md)
+    [weibo.json](./Utils/weibo.json)
 
-    [CentOS7爬虫环境搭建.md](./Centos7/CentOS7爬虫环境搭建.md)
+    [xpath.crx](./Utils/xpath.crx)
 
-    [守护进程.md](./Centos7/守护进程.md)
+    [linuxbranch.jpg](./Utils/linuxbranch.jpg)
 
-- linux
+- Linux
 
-    [linux_shell教程.md](./linux/linux_shell教程.md)
+- Linux/Common
 
-    [文件操作.md](./linux/文件操作.md)
+    [linux_shell教程.md](./Linux/Common/linux_shell教程.md)
 
-    [linux常用脚本.md](./linux/linux常用脚本.md)
+    [文件操作.md](./Linux/Common/文件操作.md)
 
-    [认识Linux.md](./linux/认识Linux.md)
+    [linux常用脚本.md](./Linux/Common/linux常用脚本.md)
 
-    [软件安装.md](./linux/软件安装.md)
+    [认识Linux.md](./Linux/Common/认识Linux.md)
 
-    [linux定时任务.md](./linux/linux定时任务.md)
+    [软件安装.md](./Linux/Common/软件安装.md)
 
-    [系统服务.md](./linux/系统服务.md)
+    [linux定时任务.md](./Linux/Common/linux定时任务.md)
 
-    [mongodb_data_migration.md](./linux/mongodb_data_migration.md)
+    [系统服务.md](./Linux/Common/系统服务.md)
 
-    [目录结构及VIM.md](./linux/目录结构及VIM.md)
+    [目录结构及VIM.md](./Linux/Common/目录结构及VIM.md)
 
-    [linux开机启动任务.md](./linux/linux开机启动任务.md)
+    [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
 
-- Sublime
+- Linux/Deepin
 
-    [sublime_setting.json](./Sublime/sublime_setting.json)
+    [deepin_TouchPad_setting.md](./Linux/Deepin/deepin_TouchPad_setting.md)
 
-    [sublime_License.txt](./Sublime/sublime_License.txt)
+- Linux/Centos7
 
-    [python.tmpl](./Sublime/python.tmpl)
+    [Nginx安装.md](./Linux/Centos7/Nginx安装.md)
 
-- Java
+    [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
 
-    [03_Java发展历史.md](./Java/03_Java发展历史.md)
+    [RedisLive配置手册.md](./Linux/Centos7/RedisLive配置手册.md)
 
-    [05_Java面向对象.md](./Java/05_Java面向对象.md)
+    [CentOS7相关配置.md](./Linux/Centos7/CentOS7相关配置.md)
 
-    [02_Java主要特性.md](./Java/02_Java主要特性.md)
+    [Centos7时区更改.md](./Linux/Centos7/Centos7时区更改.md)
 
-    [04_Java基本语法.md](./Java/04_Java基本语法.md)
+    [CentOS7爬虫环境搭建.md](./Linux/Centos7/CentOS7爬虫环境搭建.md)
 
-    [06_Java基本数据类型.md](./Java/06_Java基本数据类型.md)
+    [守护进程.md](./Linux/Centos7/守护进程.md)
 
-    [01_Java简介.md](./Java/01_Java简介.md)
+- Linux/Other
 
-- MachineLearning
+    [mongodb_data_migration.md](./Linux/Other/mongodb_data_migration.md)
 
-    [02Pandas.md](./MachineLearning/02Pandas.md)
+- Linux/Ubuntu
 
-    [09普通线性回归、岭回归、Lasso回归.md](./MachineLearning/09普通线性回归、岭回归、Lasso回归.md)
+    [ubuntu_apt_source.md](./Linux/Ubuntu/ubuntu_apt_source.md)
 
-    [10逻辑蒂斯.md](./MachineLearning/10逻辑蒂斯.md)
+    [ubuntu备份还原.md](./Linux/Ubuntu/ubuntu备份还原.md)
 
-    [03Pandas的拼接操作.md](./MachineLearning/03Pandas的拼接操作.md)
+    [ubuntu_python3_tk_error.md](./Linux/Ubuntu/ubuntu_python3_tk_error.md)
 
-    [06matplotlib.md](./MachineLearning/06matplotlib.md)
+    [GoogleChromeinstall.md](./Linux/Ubuntu/GoogleChromeinstall.md)
 
-    [03pandas层次化索引.md](./MachineLearning/03pandas层次化索引.md)
+    [SublimeTest3Install.md](./Linux/Ubuntu/SublimeTest3Install.md)
 
-    [04Pandas数据处理.md](./MachineLearning/04Pandas数据处理.md)
+    [ubuntu_java开发环境搭建.md](./Linux/Ubuntu/ubuntu_java开发环境搭建.md)
 
-    [IPython与Numpy.jpg](./MachineLearning/IPython与Numpy.jpg)
+    [MongoDB_install.md](./Linux/Ubuntu/MongoDB_install.md)
 
-    [01numpy.md](./MachineLearning/01numpy.md)
+    [ubuntu_wechat_install.md](./Linux/Ubuntu/ubuntu_wechat_install.md)
 
-    [07数据加载与透视表.md](./MachineLearning/07数据加载与透视表.md)
+    [VSCodeInstall.md](./Linux/Ubuntu/VSCodeInstall.md)
 
-    [08机器学习KNN.md](./MachineLearning/08机器学习KNN.md)
+    [ubuntu_deepinwine_software.md](./Linux/Ubuntu/ubuntu_deepinwine_software.md)
 
-- flask
+    [ubuntu_Typora安装.md](./Linux/Ubuntu/ubuntu_Typora安装.md)
 
-    [03_flask表单.md](./flask/03_flask表单.md)
+    [ubuntu_sougouInput_install.md](./Linux/Ubuntu/ubuntu_sougouInput_install.md)
 
-    [05_数据模型Model.md](./flask/05_数据模型Model.md)
+    [dpkg.md](./Linux/Ubuntu/dpkg.md)
 
-    [01_Flask入门.md](./flask/01_Flask入门.md)
+    [Ubuntu安装oh_my_zsh.md](./Linux/Ubuntu/Ubuntu安装oh_my_zsh.md)
 
-    [06_Flask项目.md](./flask/06_Flask项目.md)
+    [pyenv_install.md](./Linux/Ubuntu/pyenv_install.md)
 
-    [02_模板引擎.md](./flask/02_模板引擎.md)
-
-    [09_Flask项目部署.md](./flask/09_Flask项目部署.md)
-
-    [08_帖子管理.md](./flask/08_帖子管理.md)
-
-    [RESTFul_API开发.md](./flask/RESTFul_API开发.md)
-
-    [07_用户管理.md](./flask/07_用户管理.md)
-
-    [04_文件上传及邮件发送.md](./flask/04_文件上传及邮件发送.md)
-
-- deepin
-
-    [deepin_TouchPad_setting.md](./deepin/deepin_TouchPad_setting.md)
-
-- ubuntu
-
-    [ubuntu_apt_source.md](./ubuntu/ubuntu_apt_source.md)
-
-    [ubuntu备份还原.md](./ubuntu/ubuntu备份还原.md)
-
-    [GoogleChromeinstall.md](./ubuntu/GoogleChromeinstall.md)
-
-    [SublimeTest3Install.md](./ubuntu/SublimeTest3Install.md)
-
-    [ubuntu_java开发环境搭建.md](./ubuntu/ubuntu_java开发环境搭建.md)
-
-    [MongoDB_install.md](./ubuntu/MongoDB_install.md)
-
-    [ubuntu_wechat_install.md](./ubuntu/ubuntu_wechat_install.md)
-
-    [ubuntu——python3_tk_error.md](./ubuntu/ubuntu——python3_tk_error.md)
-
-    [VSCodeInstall.md](./ubuntu/VSCodeInstall.md)
-
-    [ubuntu_deepinwine_software.md](./ubuntu/ubuntu_deepinwine_software.md)
-
-    [ubuntu_Typora安装.md](./ubuntu/ubuntu_Typora安装.md)
-
-    [ubuntu_sougouInput_install.md](./ubuntu/ubuntu_sougouInput_install.md)
-
-    [dpkg.md](./ubuntu/dpkg.md)
-
-    [Ubuntu安装oh_my_zsh.md](./ubuntu/Ubuntu安装oh_my_zsh.md)
-
-    [pyenv_install.md](./ubuntu/pyenv_install.md)
-
-    [apt_info.md](./ubuntu/apt_info.md)
+    [apt_info.md](./Linux/Ubuntu/apt_info.md)
 
     [README.md](./README.md)
 
-    [tree.py](./tree.py)
+- Language
 
-- python
+- Language/Java
 
-    [Scrapyd.md](./python/Scrapyd.md)
+    [03_Java发展历史.md](./Language/Java/03_Java发展历史.md)
 
-    [Python3_Paramiko远程shell.md](./python/Python3_Paramiko远程shell.md)
+    [05_Java面向对象.md](./Language/Java/05_Java面向对象.md)
 
-- utils
+    [02_Java主要特性.md](./Language/Java/02_Java主要特性.md)
 
-    [linux.jpg](./utils/linux.jpg)
+    [04_Java基本语法.md](./Language/Java/04_Java基本语法.md)
 
-    [weibo.json](./utils/weibo.json)
+    [06_Java基本数据类型.md](./Language/Java/06_Java基本数据类型.md)
 
-    [xpath.crx](./utils/xpath.crx)
+    [01_Java简介.md](./Language/Java/01_Java简介.md)
 
-    [linuxbranch.jpg](./utils/linuxbranch.jpg)
+- Language/Python
 
+- Language/Python/Flask
+
+    [03_flask表单.md](./Language/Python/Flask/03_flask表单.md)
+
+    [05_数据模型Model.md](./Language/Python/Flask/05_数据模型Model.md)
+
+    [01_Flask入门.md](./Language/Python/Flask/01_Flask入门.md)
+
+    [06_Flask项目.md](./Language/Python/Flask/06_Flask项目.md)
+
+    [02_模板引擎.md](./Language/Python/Flask/02_模板引擎.md)
+
+    [09_Flask项目部署.md](./Language/Python/Flask/09_Flask项目部署.md)
+
+    [08_帖子管理.md](./Language/Python/Flask/08_帖子管理.md)
+
+    [RESTFul_API开发.md](./Language/Python/Flask/RESTFul_API开发.md)
+
+    [07_用户管理.md](./Language/Python/Flask/07_用户管理.md)
+
+    [04_文件上传及邮件发送.md](./Language/Python/Flask/04_文件上传及邮件发送.md)
+
+- Language/Python/Spider
+
+    [Scrapyd.md](./Language/Python/Spider/Scrapyd.md)
+
+- Language/Python/MachineLearning
+
+    [02Pandas.md](./Language/Python/MachineLearning/02Pandas.md)
+
+    [09普通线性回归、岭回归、Lasso回归.md](./Language/Python/MachineLearning/09普通线性回归、岭回归、Lasso回归.md)
+
+    [10逻辑蒂斯.md](./Language/Python/MachineLearning/10逻辑蒂斯.md)
+
+    [03Pandas的拼接操作.md](./Language/Python/MachineLearning/03Pandas的拼接操作.md)
+
+    [06matplotlib.md](./Language/Python/MachineLearning/06matplotlib.md)
+
+    [03pandas层次化索引.md](./Language/Python/MachineLearning/03pandas层次化索引.md)
+
+    [04Pandas数据处理.md](./Language/Python/MachineLearning/04Pandas数据处理.md)
+
+    [IPython与Numpy.jpg](./Language/Python/MachineLearning/IPython与Numpy.jpg)
+
+    [01numpy.md](./Language/Python/MachineLearning/01numpy.md)
+
+    [07数据加载与透视表.md](./Language/Python/MachineLearning/07数据加载与透视表.md)
+
+    [08机器学习KNN.md](./Language/Python/MachineLearning/08机器学习KNN.md)
+
+- Language/Python/Other
+
+    [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
+
+
+> 本目录结构由./.tree.py自动生成
+后期将使用LinuxShell进行复写并替代

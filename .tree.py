@@ -8,13 +8,13 @@ import os
 
 readme = './README.md'
 rfp = open(readme,'w',encoding='utf-8')
-rfp.write('# README\n\n')
-rfp.write('![avatar](./utils/linux.jpg)\n\n')
+rfp.write('# 目录\n\n')
+rfp.write('![avatar](./Utils/linux.jpg)\n\n')
 
 bd = '.'
 def li(path):
     for f in os.listdir(path):
-        if str(f) != '.git':
+        if not str(f).startswith('.') :
             fp=os.path.join(path,f)
             if os.path.isfile(fp):
                 rfp.write('    ['+f+']('+fp+')\n\n')
@@ -23,3 +23,4 @@ def li(path):
                 li(fp)
 
 li(bd)
+rfp.write('\n> 本目录结构由%s自动生成\n后期将使用LinuxShell进行复写并替代\n'%str(__file__))
