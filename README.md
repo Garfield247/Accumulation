@@ -1,10 +1,8 @@
 # 目录
 
-![avatar](./Utils/linux.jpg)
+![avatar](./Utils/Other/linux.jpg)
 
 - Utils
-
-    [linux.jpg](./Utils/linux.jpg)
 
 - Utils/Sublime
 
@@ -14,11 +12,15 @@
 
     [python.tmpl](./Utils/Sublime/python.tmpl)
 
-    [weibo.json](./Utils/weibo.json)
+- Utils/Other
 
-    [xpath.crx](./Utils/xpath.crx)
+    [linux.jpg](./Utils/Other/linux.jpg)
 
-    [linuxbranch.jpg](./Utils/linuxbranch.jpg)
+    [weibo.json](./Utils/Other/weibo.json)
+
+    [xpath.crx](./Utils/Other/xpath.crx)
+
+    [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
 
 - Linux
 
