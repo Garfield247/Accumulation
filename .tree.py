@@ -9,7 +9,7 @@ import os
 readme = './README.md'
 rfp = open(readme,'w',encoding='utf-8')
 rfp.write('# 目录\n\n')
-rfp.write('![avatar](./Utils/linux.jpg)\n\n')
+rfp.write('![avatar](./Utils/Other/linux.jpg)\n\n')
 
 bd = '.'
 def li(path):
