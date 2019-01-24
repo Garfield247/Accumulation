@@ -220,7 +220,7 @@ hello, runoob ! hello, runoob !
 hello, runoob ! hello, ${your_name} !
 ```
 
-#### 获取字符串长度
+### 获取字符串长度
 
 ```shell
 string="abcd"
@@ -238,7 +238,16 @@ echo ${string:1:4}
 # 输出 ello
 ```
 
-#### 查找子字符串
+**其他方法**
+
+1. expr substr “$a” 1 8
+2. echo $a|awk ‘{print substr(,1,8)}’
+3. echo $a|cut -c1-8
+4. echo $
+5. expr $a : ‘\(.\\).*’
+6. echo $a|dd bs=1 count=8 2>/dev/null
+
+### 查找子字符串
 
 查找字符 **l**或 **r** 的位置(哪个字母先出现就计算哪个)：
 
@@ -248,7 +257,55 @@ echo `expr index "$string" lr`
 # 输出 2
 ```
 
-**注意：** 以上脚本中 ` 是反引号，而不是单引号 '，不要看错了哦。
+**注意：** 以上脚本中 ` 是反引号，而不是单引号 '。
+
+### 字符串截取
+
+**第一种方法**
+
+ 从左向右截取最后一个string后的字符串
+ `${varible##*string}`
+ 从左向右截取第一个string后的字符串
+ `${varible#*string}`
+ 从右向左截取最后一个string后的字符串
+ `${varible%%string*}`
+ 从右向左截取第一个string后的字符串
+ `${varible%string*}`
+ “*”只是一个通配符可以不要
+**例：**
+
+```
+$ MYVAR=foodforthought.jpg
+$ echo ${MYVAR##*fo}
+rthought.jpg
+$ echo ${MYVAR#*fo}
+odforthought.jpg
+```
+
+ **第二种方法：**
+ `${varible:n1:n2}`:截取变量varible从n1开始的n2个字符，组成一个子字符串。可以根据特定字符偏移和长度，使用另一种形式的变量扩展，来选择特定子字符串。试着在 bash 中输入以下行：
+
+```
+$ EXCLAIM=cowabunga
+$ echo ${EXCLAIM:0:3}
+cow
+$ echo ${EXCLAIM:3:7}
+abunga
+```
+
+ 这种形式的字符串截断非常简便，只需用冒号分开来指定起始字符和子字符串长度。
+
+ **按照指定要求分割：**
+
+ 比如获取后缀名
+
+```
+ls -al | cut -d “.” -f2
+```
+
+ 在做shell批处理程序时候，经常会涉及到字符串相关操作。有很多命令语句，如：`awk`,`sed`都可以做字符串各种操作。 其实shell内置一系列操作符号，可以达到类似效果，使用内部操作符会省略启动外部程序等时间，因此速度会非常的快。
+
+ 
 
 ------
 

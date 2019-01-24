@@ -68,11 +68,21 @@
    wget -P ~/.pyenv/cache https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
    ```
 
-2. 安装Python在Ubuntu下的依赖(python3.X 通用)
+2. 安装依赖(python3.X 通用)
+
+   - ubuntu
 
    ```shell
-   sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libffi-dev
+   sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libffi-dev libssl-dev zlib1g-dev libbz2-dev libreadline-dev xz-utils liblzma-dev python-openssl -y
    ```
+   - Centos
+
+   ```
+   sudo yum install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel \
+   openssl-devel xz xz-devel libffi-devel
+   ```
+
+   
 
 3. 使用`pyenv install <version> `命令进行安装
 
@@ -92,4 +102,54 @@
 
    
 
+## 使用`virtualenv` 
 
+- 创建
+
+  从默认版本创建虚拟环境
+
+  ```
+  pyenv virtualenv env
+  ```
+
+  创建3.6.4版本的虚拟环境
+
+  ```
+  pyenv virtualenv 3.6.4 env-3.6.4
+  ```
+
+- 激活
+
+  ```
+  pyenv activate env-3.6.4
+  ```
+
+- 关闭
+
+  ```
+  pyenv deactivate
+  ```
+
+- 自动激活
+
+  ```
+  # 使用pyenv local 虚拟环境名
+  # 会把`虚拟环境名`写入当前目录的.python-version文件中
+  # 关闭自动激活 -> pyenv deactivate
+  # 启动自动激活 -> pyenv activate env-3.6.4
+  pyenv local env-3.6.4
+  ```
+
+- 删除
+
+  ```
+  pyenv uninstall env-3.6.4 
+  ```
+
+  
+
+ 
+
+ 
+
+ 
