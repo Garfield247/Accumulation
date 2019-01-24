@@ -102,7 +102,29 @@
 
    
 
-## 使用`virtualenv` 
+## 使用`pyenv-virtualenv` 
+
+- 安装
+
+  1. **查看pyenv-virtualenv到插件目录**
+
+     ```
+     $ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+     ```
+
+  2. （可选）**添加pyenv virtualenv-init到shell**以启用virtualenvs的自动激活。
+
+     ```
+     $ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+     ```
+
+     这里的 shell 配置文件（`~/.bash_profile`）依不同 Linux 而需作修改——Zsh：`~/.zshenv`；Ubuntu：`~/.bashrc`
+
+  3. **重新启动shell以启用pyenv-virtualenv**
+
+     ```
+     $ exec  $SHELL
+     ```
 
 - 创建
 
