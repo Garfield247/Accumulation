@@ -70,9 +70,7 @@
 
     [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
 
-- ./Language/Python/Spider
-
-    [Scrapyd.md](./Language/Python/Spider/Scrapyd.md)
+    [正则表达式.md](./Language/Python/Other/正则表达式.md)
 
 - ./Language/Shell
 
@@ -165,6 +163,8 @@
     [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
 
     [linux.jpg](./Utils/Other/linux.jpg)
+
+    [vim.png](./Utils/Other/vim.png)
 
     [weibo.json](./Utils/Other/weibo.json)
 
