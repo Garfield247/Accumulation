@@ -20,6 +20,8 @@
 
 - ./Language/Python
 
+- ./Language/Python/Django
+
 - ./Language/Python/Flask
 
     [01_Flask入门.md](./Language/Python/Flask/01_Flask入门.md)
@@ -118,6 +120,8 @@
 
 - ./Linux/Other
 
+    [Code.rar](./Linux/Other/Code.rar)
+
     [mongodb_data_migration.md](./Linux/Other/mongodb_data_migration.md)
 
 - ./Linux/Ubuntu
@@ -131,6 +135,8 @@
     [MongoDB_install.md](./Linux/Ubuntu/MongoDB_install.md)
 
     [pyenv_install.md](./Linux/Ubuntu/pyenv_install.md)
+
+    [Sdkman.md](./Linux/Ubuntu/Sdkman.md)
 
     [SublimeTest3Install.md](./Linux/Ubuntu/SublimeTest3Install.md)
 
