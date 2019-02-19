@@ -120,8 +120,6 @@
 
 - ./Linux/Other
 
-    [Code.rar](./Linux/Other/Code.rar)
-
     [mongodb_data_migration.md](./Linux/Other/mongodb_data_migration.md)
 
 - ./Linux/Ubuntu
