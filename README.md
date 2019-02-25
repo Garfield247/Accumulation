@@ -70,21 +70,21 @@
 
 - ./Language/Python/Other
 
-    [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
-
     [正则表达式.md](./Language/Python/Other/正则表达式.md)
+
+    [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
 
 - ./Language/Shell
 
-    [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
-
     [linux常用脚本.md](./Language/Shell/linux常用脚本.md)
+
+    [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
 
 - ./Linux
 
 - ./Linux/Centos7
 
-    [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
+    [守护进程.md](./Linux/Centos7/守护进程.md)
 
     [CentOS7爬虫环境搭建.md](./Linux/Centos7/CentOS7爬虫环境搭建.md)
 
@@ -92,17 +92,13 @@
 
     [CentOS7相关配置.md](./Linux/Centos7/CentOS7相关配置.md)
 
+    [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
+
     [Nginx安装.md](./Linux/Centos7/Nginx安装.md)
 
     [RedisLive配置手册.md](./Linux/Centos7/RedisLive配置手册.md)
 
-    [守护进程.md](./Linux/Centos7/守护进程.md)
-
 - ./Linux/Common
-
-    [linux定时任务.md](./Linux/Common/linux定时任务.md)
-
-    [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
 
     [目录结构及VIM.md](./Linux/Common/目录结构及VIM.md)
 
@@ -113,6 +109,12 @@
     [文件操作.md](./Linux/Common/文件操作.md)
 
     [系统服务.md](./Linux/Common/系统服务.md)
+
+    [Home目錄下中文改英文.md](./Linux/Common/Home目錄下中文改英文.md)
+
+    [linux定时任务.md](./Linux/Common/linux定时任务.md)
+
+    [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
 
 - ./Linux/Deepin
 
@@ -138,6 +140,10 @@
 
     [SublimeTest3Install.md](./Linux/Ubuntu/SublimeTest3Install.md)
 
+    [Ubuntu安装oh_my_zsh.md](./Linux/Ubuntu/Ubuntu安装oh_my_zsh.md)
+
+    [ubuntu备份还原.md](./Linux/Ubuntu/ubuntu备份还原.md)
+
     [ubuntu_apt_source.md](./Linux/Ubuntu/ubuntu_apt_source.md)
 
     [ubuntu_deepinwine_software.md](./Linux/Ubuntu/ubuntu_deepinwine_software.md)
@@ -151,10 +157,6 @@
     [ubuntu_Typora安装.md](./Linux/Ubuntu/ubuntu_Typora安装.md)
 
     [ubuntu_wechat_install.md](./Linux/Ubuntu/ubuntu_wechat_install.md)
-
-    [Ubuntu安装oh_my_zsh.md](./Linux/Ubuntu/Ubuntu安装oh_my_zsh.md)
-
-    [ubuntu备份还原.md](./Linux/Ubuntu/ubuntu备份还原.md)
 
     [VSCodeInstall.md](./Linux/Ubuntu/VSCodeInstall.md)
 
