@@ -80,6 +80,26 @@
 
     [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
 
+- ./Language/SQL
+
+    [01-SQL简介.md](./Language/SQL/01-SQL简介.md)
+
+    [02-SQL语法.md](./Language/SQL/02-SQL语法.md)
+
+    [03-SQL-SELECT语句.md](./Language/SQL/03-SQL-SELECT语句.md)
+
+    [04-SELECT-DISTINCT语句.md](./Language/SQL/04-SELECT-DISTINCT语句.md)
+
+    [05-BETWEEN子句.md](./Language/SQL/05-BETWEEN子句.md)
+
+    [06-AND-OR运算符.md](./Language/SQL/06-AND-OR运算符.md)
+
+    [07-ORDER_BY关键字.md](./Language/SQL/07-ORDER_BY关键字.md)
+
+    [08-SQL-INSERT-INTO语句.md](./Language/SQL/08-SQL-INSERT-INTO语句.md)
+
+    [09-SQL-UPDATE语句.md](./Language/SQL/09-SQL-UPDATE语句.md)
+
 - ./Linux
 
 - ./Linux/Centos7
@@ -120,9 +140,17 @@
 
     [deepin_TouchPad_setting.md](./Linux/Deepin/deepin_TouchPad_setting.md)
 
+- ./Linux/Manjaro
+
+    [Manjaro初始配置.md](./Linux/Manjaro/Manjaro初始配置.md)
+
+    [Manjaro-pacman命令.md](./Linux/Manjaro/Manjaro-pacman命令.md)
+
 - ./Linux/Other
 
     [mongodb_data_migration.md](./Linux/Other/mongodb_data_migration.md)
+
+    [pycharm-pro.md](./Linux/Other/pycharm-pro.md)
 
 - ./Linux/Ubuntu
 
