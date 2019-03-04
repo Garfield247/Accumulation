@@ -100,6 +100,10 @@
 
     [09-SQL-UPDATE语句.md](./Language/SQL/09-SQL-UPDATE语句.md)
 
+    [10-SQL-DELETE语句.md](./Language/SQL/10-SQL-DELETE语句.md)
+
+    [11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md](./Language/SQL/11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md)
+
 - ./Linux
 
 - ./Linux/Centos7
@@ -197,6 +201,8 @@
     [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
 
     [linux.jpg](./Utils/Other/linux.jpg)
+
+    [mysql8.0加密错误.md](./Utils/Other/mysql8.0加密错误.md)
 
     [vim.png](./Utils/Other/vim.png)
 
