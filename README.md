@@ -148,6 +148,8 @@
 
     [Manjaro初始配置.md](./Linux/Manjaro/Manjaro初始配置.md)
 
+    [manjaroKDE安装配置.md](./Linux/Manjaro/manjaroKDE安装配置.md)
+
     [Manjaro-pacman命令.md](./Linux/Manjaro/Manjaro-pacman命令.md)
 
 - ./Linux/Other
