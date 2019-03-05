@@ -22,6 +22,8 @@
 
 - ./Language/Python/Django
 
+    [Django进阶.md](./Language/Python/Django/Django进阶.md)
+
 - ./Language/Python/Flask
 
     [01_Flask入门.md](./Language/Python/Flask/01_Flask入门.md)
@@ -74,6 +76,10 @@
 
     [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
 
+    [Python进阶.md](./Language/Python/Other/Python进阶.md)
+
+    [Web基础.md](./Language/Python/Other/Web基础.md)
+
 - ./Language/Shell
 
     [linux常用脚本.md](./Language/Shell/linux常用脚本.md)
@@ -103,6 +109,8 @@
     [10-SQL-DELETE语句.md](./Language/SQL/10-SQL-DELETE语句.md)
 
     [11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md](./Language/SQL/11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md)
+
+    [深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf](./Language/SQL/深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf)
 
 - ./Linux
 
@@ -139,6 +147,8 @@
     [linux定时任务.md](./Linux/Common/linux定时任务.md)
 
     [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
+
+    [Linux.md](./Linux/Common/Linux.md)
 
 - ./Linux/Deepin
 
@@ -219,4 +229,8 @@
     [sublime_License.txt](./Utils/Sublime/sublime_License.txt)
 
     [sublime_setting.json](./Utils/Sublime/sublime_setting.json)
+
+- ./windows
+
+    [PowerShell美化.md](./windows/PowerShell美化.md)
 
