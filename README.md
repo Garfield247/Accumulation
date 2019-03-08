@@ -150,6 +150,8 @@
 
     [Linux.md](./Linux/Common/Linux.md)
 
+    [SpaceVIM.md](./Linux/Common/SpaceVIM.md)
+
 - ./Linux/Deepin
 
     [deepin_TouchPad_setting.md](./Linux/Deepin/deepin_TouchPad_setting.md)
@@ -223,6 +225,8 @@
     [xpath.crx](./Utils/Other/xpath.crx)
 
 - ./Utils/Sublime
+
+    [channel_v3.json](./Utils/Sublime/channel_v3.json)
 
     [python.tmpl](./Utils/Sublime/python.tmpl)
 
