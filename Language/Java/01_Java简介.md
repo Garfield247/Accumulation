@@ -17,3 +17,21 @@ Java具有简单性、面向对象、分布式、健壮性、安全性、平台�
 - JavaSE （J2SE）（Java2 Platform Standard Edition，java平台标准版）
 - JavaEE    (J2EE)    (Java 2 Platform,Enterprise Edition，java平台企业版)
 - JavaME   (J2ME)   (Java 2 Platform Micro Edition，java平台微型版)。
+
+
+
+## Java术语
+
+**`JDK`**：Java开发工具包。包括了开发、运行**Java**程序所有的工具。
+
+**`JRE`**：Java运行环境。包含了运行**Java**应用程序的所有环境。
+
+**`JVM`**：Java虚拟机。运行**Java**程序的重要程序。
+
+**注意**：`JDK`包含`JRE`，`JRE`包含`JVM`。
+
+**`GC`**：JAVA内存垃圾收集机制。是一个懒惰的机制。（原因：**GC**的启动非常消耗系统资源，使系统性能下降。）
+
+**`API`：**应用编程接口。**JAVA**特指**JavaDoc**文档。
+
+**`IDE`：**集成开发环境。是一种工具软件，集成了编辑、编译、运行、调试、部署、管理第三方软件（如数据库、应用服务器、其他工具）等功能。

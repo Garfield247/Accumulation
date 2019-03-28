@@ -126,6 +126,8 @@
 
     [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
 
+    [Centos7selenium.md](./Linux/Centos7/Centos7selenium.md)
+
     [Nginx安装.md](./Linux/Centos7/Nginx安装.md)
 
     [RedisLive配置手册.md](./Linux/Centos7/RedisLive配置手册.md)
@@ -241,6 +243,10 @@
     [sublime_License.txt](./Utils/Sublime/sublime_License.txt)
 
     [sublime_setting.json](./Utils/Sublime/sublime_setting.json)
+
+- ./Utils/VsCode
+
+    [VsCode.md](./Utils/VsCode/VsCode.md)
 
 - ./windows
 
