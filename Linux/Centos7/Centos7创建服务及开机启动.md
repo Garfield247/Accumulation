@@ -93,6 +93,10 @@ chmod +x /etc/init.d/{server}
 
   `service {server} restart`
 
+- 查看状态
+
+  `service {server} status`
+
 - 开机启动
 
   `systemctl enable {server}.service`
