@@ -118,6 +118,8 @@
 
     [守护进程.md](./Linux/Centos7/守护进程.md)
 
+    [Centos7创建服务及开机启动.md](./Linux/Centos7/Centos7创建服务及开机启动.md)
+
     [CentOS7爬虫环境搭建.md](./Linux/Centos7/CentOS7爬虫环境搭建.md)
 
     [Centos7时区更改.md](./Linux/Centos7/Centos7时区更改.md)
