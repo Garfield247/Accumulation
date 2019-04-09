@@ -222,6 +222,16 @@
 
     [ProGit.pdf](./Utils/git/ProGit.pdf)
 
+- ./Utils/GnomeTheme
+
+    [Cupertino-Mobile.tar.xz](./Utils/GnomeTheme/Cupertino-Mobile.tar.xz)
+
+    [Cupertino-Mojave.tar.xz](./Utils/GnomeTheme/Cupertino-Mojave.tar.xz)
+
+    [macOS11-GTK.zip](./Utils/GnomeTheme/macOS11-GTK.zip)
+
+    [macOS11-Shell.zip](./Utils/GnomeTheme/macOS11-Shell.zip)
+
 - ./Utils/Other
 
     [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
