@@ -1,5 +1,7 @@
 # 目录
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 ![avatar](./Utils/Other/linux.jpg)
 
 - ./Language
