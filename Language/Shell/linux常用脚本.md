@@ -27,3 +27,11 @@ do
 done
 ```
 
+## 遍历删除某种文件
+
+- 命令
+
+```shell
+find . -name "*.pyc"  | xargs rm -f
+```
+

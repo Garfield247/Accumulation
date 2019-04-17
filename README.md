@@ -1,5 +1,9 @@
 # 目录
 
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 ![avatar](./Utils/Other/linux.jpg)
 
 - ./Language
@@ -21,6 +25,8 @@
 - ./Language/Python
 
 - ./Language/Python/Django
+
+    [Django进阶.md](./Language/Python/Django/Django进阶.md)
 
 - ./Language/Python/Flask
 
@@ -74,17 +80,49 @@
 
     [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
 
+    [Python进阶.md](./Language/Python/Other/Python进阶.md)
+
+    [Web基础.md](./Language/Python/Other/Web基础.md)
+
 - ./Language/Shell
 
     [linux常用脚本.md](./Language/Shell/linux常用脚本.md)
 
     [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
 
+- ./Language/SQL
+
+    [01-SQL简介.md](./Language/SQL/01-SQL简介.md)
+
+    [02-SQL语法.md](./Language/SQL/02-SQL语法.md)
+
+    [03-SQL-SELECT语句.md](./Language/SQL/03-SQL-SELECT语句.md)
+
+    [04-SELECT-DISTINCT语句.md](./Language/SQL/04-SELECT-DISTINCT语句.md)
+
+    [05-BETWEEN子句.md](./Language/SQL/05-BETWEEN子句.md)
+
+    [06-AND-OR运算符.md](./Language/SQL/06-AND-OR运算符.md)
+
+    [07-ORDER_BY关键字.md](./Language/SQL/07-ORDER_BY关键字.md)
+
+    [08-SQL-INSERT-INTO语句.md](./Language/SQL/08-SQL-INSERT-INTO语句.md)
+
+    [09-SQL-UPDATE语句.md](./Language/SQL/09-SQL-UPDATE语句.md)
+
+    [10-SQL-DELETE语句.md](./Language/SQL/10-SQL-DELETE语句.md)
+
+    [11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md](./Language/SQL/11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md)
+
+    [深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf](./Language/SQL/深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf)
+
 - ./Linux
 
 - ./Linux/Centos7
 
     [守护进程.md](./Linux/Centos7/守护进程.md)
+
+    [Centos7创建服务及开机启动.md](./Linux/Centos7/Centos7创建服务及开机启动.md)
 
     [CentOS7爬虫环境搭建.md](./Linux/Centos7/CentOS7爬虫环境搭建.md)
 
@@ -93,6 +131,8 @@
     [CentOS7相关配置.md](./Linux/Centos7/CentOS7相关配置.md)
 
     [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
+
+    [Centos7selenium.md](./Linux/Centos7/Centos7selenium.md)
 
     [Nginx安装.md](./Linux/Centos7/Nginx安装.md)
 
@@ -116,13 +156,27 @@
 
     [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
 
+    [Linux.md](./Linux/Common/Linux.md)
+
+    [SpaceVIM.md](./Linux/Common/SpaceVIM.md)
+
 - ./Linux/Deepin
 
     [deepin_TouchPad_setting.md](./Linux/Deepin/deepin_TouchPad_setting.md)
 
+- ./Linux/Manjaro
+
+    [Manjaro初始配置.md](./Linux/Manjaro/Manjaro初始配置.md)
+
+    [manjaroKDE安装配置.md](./Linux/Manjaro/manjaroKDE安装配置.md)
+
+    [Manjaro-pacman命令.md](./Linux/Manjaro/Manjaro-pacman命令.md)
+
 - ./Linux/Other
 
     [mongodb_data_migration.md](./Linux/Other/mongodb_data_migration.md)
+
+    [pycharm-pro.md](./Linux/Other/pycharm-pro.md)
 
 - ./Linux/Ubuntu
 
@@ -164,11 +218,31 @@
 
 - ./Utils
 
+- ./Utils/git
+
+    [git操作.png](./Utils/git/git操作.png)
+
+    [Git.md](./Utils/git/Git.md)
+
+    [ProGit.pdf](./Utils/git/ProGit.pdf)
+
+- ./Utils/GnomeTheme
+
+    [Cupertino-Mobile.tar.xz](./Utils/GnomeTheme/Cupertino-Mobile.tar.xz)
+
+    [Cupertino-Mojave.tar.xz](./Utils/GnomeTheme/Cupertino-Mojave.tar.xz)
+
+    [macOS11-GTK.zip](./Utils/GnomeTheme/macOS11-GTK.zip)
+
+    [macOS11-Shell.zip](./Utils/GnomeTheme/macOS11-Shell.zip)
+
 - ./Utils/Other
 
     [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
 
     [linux.jpg](./Utils/Other/linux.jpg)
+
+    [mysql8.0加密错误.md](./Utils/Other/mysql8.0加密错误.md)
 
     [vim.png](./Utils/Other/vim.png)
 
@@ -178,9 +252,19 @@
 
 - ./Utils/Sublime
 
+    [channel_v3.json](./Utils/Sublime/channel_v3.json)
+
     [python.tmpl](./Utils/Sublime/python.tmpl)
 
     [sublime_License.txt](./Utils/Sublime/sublime_License.txt)
 
     [sublime_setting.json](./Utils/Sublime/sublime_setting.json)
+
+- ./Utils/VsCode
+
+    [VsCode.md](./Utils/VsCode/VsCode.md)
+
+- ./windows
+
+    [PowerShell美化.md](./windows/PowerShell美化.md)
 
