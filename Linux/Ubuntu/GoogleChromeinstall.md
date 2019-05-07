@@ -44,5 +44,13 @@
    ```
    sudo dpkg -i google-chrome-stable_current_amd64.deb
    ```
+## ChromeDriver安装
 
+1. 下载对应版本的驱动文件
+   网址：https://chromedriver.storage.googleapis.com/index.html
+   
+2. 解压到/usr/bin
+```shell
+sudo unzip chromedriver_linux64.zip -d /usr/bin
+```
    
