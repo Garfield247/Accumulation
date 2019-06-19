@@ -35,3 +35,19 @@ done
 find . -name "*.pyc"  | xargs rm -f
 ```
 
+## 查看程序的进程是否存在，若不存在则启动脚本，每60s检查一次
+
+```shell
+#!/bin/sh
+while true;
+do
+processExist=`ps aux | grep 进程的名字 | grep -v "grep" `
+if [ -z $processExist ];then
+   echo "proecss is restarted"
+  /home/hzjj/auto_run.sh  # 启动程序的脚本所在的绝对路径
+else
+  echo "process is running"
+fi
+sleep 60 #每 60s检查一次
+done
+```
