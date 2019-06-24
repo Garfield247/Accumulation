@@ -1,75 +1,87 @@
-# Mongodb数据迁移步骤
+## MongoDB导入导出以及数据库备份
+
+-------------------MongoDB数据导入与导出-------------------
+
+1、导出工具：mongoexport
+
+​    1、概念：
+
+​        mongoDB中的mongoexport工具可以把一个collection导出成JSON格式或CSV格式的文件。可以通过参数指定导出的数据项，也可以根据指定的条件导出数据。
+
+​    2、语法：
+
+​        mongoexport -d dbname -c collectionname -o file --type json/csv -f field
+
+​        参数说明：
+
+​            -d ：数据库名
+
+​            -c ：collection名
+
+​            -o ：输出的文件名
+
+​            --type ： 输出的格式，默认为json
+
+​            -f ：输出的字段，如果-type为csv，则需要加上-f "字段名"
 
  
 
-## 需求：
+2、数据导入：mongoimport
 
-需要将一台linux上的mongodb数据迁移到另外一台linux上
+​    1、语法：
 
-例：A迁移到B
+​        mongoimport -d dbname -c collectionname --file filename --headerline --type json/csv -f field
 
- 
+​        参数说明：
 
-## 方案：
+​            -d ：数据库名
 
-两个命令即可完成任务：
+​            -c ：collection名
 
-数据的导出：mongoexport
+​            --type ：导入的格式默认json
 
-数据的导入：mongoimport
+​            -f ：导入的字段名
 
- 
+​            --headerline ：如果导入的格式是csv，则可以使用第一行的标题作为导入的字段
 
-## 具体步骤：
+​            --file ：要导入的文件
 
-### 导出：
+  
 
-1.找到A的mongodb的mongoexport所在目录。
+-------------------MongoDB备份与恢复-------------------
 
-例如：cd /usr/local/mongodb/bin
+1、MongoDB数据库备份
 
-2.将数据导出，执行命令：./mongoexport -d DataBaseName -c CollectionName -o XXX.dat
+​    1、语法：
 
-其中，DataBaseName为数据库名称，CollectionName为集合名称，XXX.dat为导出后的名称
+​        mongodump -h dbhost -d dbname -o dbdirectory
 
-导出后的XXX.dat将在mongoexport所在的目录下。
+​        参数说明：
 
-例如：./mongoexport -d Student -c StudentInfo -o StudentInfo.dat
+​            -h： MongDB所在服务器地址，例如：127.0.0.1，当然也可以指定端口号：127.0.0.1:27017
 
-将数据库Student下的集合StudentInfo导出到mongoexport所在的目录下，并将其命名为StudentInfo.dat
+​            -d： 需要备份的数据库实例，例如：test
 
-3.按照上面的步骤将所有集合都导出来，至此导出完毕。
+​            -o： 备份的数据存放位置，例如：/home/mongodump/，当然该目录需要提前建立，这个目录里面存放该数据库实例的备份数据。
 
- 
+​         \-
 
-### 导入：
+2、MongoDB数据库恢复
 
-4.将导出的集合数据移动到B服务器上mongoimport所在的目录，可以使用命令：
+​    1、语法：
 
-sudo mv /tmp/XXX.dat /db/mongo/bin (将XXX.dat移动到/db/mongo/bin目录下)
-
-5.找到B的mongoimport所在的目录：cd /db/mongo/bin
-
-6.将数据导入，执行命令：
-
-./mongoimport -h 127.0.0.1:port -u xxx -p xxx-d DataBaseName -c CollectionName XXX.dat
-
-其中，DataBaseName为数据库名称，CollectionName为集合名称，XXX.dat为导入的集合
-
-例如：
-
-./mongoimport -h 127.0.0.1:27017 -u zhangsan -p zhangsan -d Student -c StudentInfo StudentInfo.dat
-
--h 127.0.0.1:27017：连接到本地，端口号为27017
-
--u zhangsan：用户名为zhangsan
-
--p zhangsan：密码为zhangsan
-
--d Student -c StudentInfo StudentInfo.dat：将StudentInfo.dat导入到数据库名称为Student，集合名称为StudentInfo中。
+​        mongorestore -h dbhost -d dbname --dir dbdirectory
 
  
 
-至此，迁移完毕。
+​        参数或名：
 
- 
+​            -h： MongoDB所在服务器地址
+
+​            -d： 需要恢复的数据库实例，例如：test，当然这个名称也可以和备份时候的不一样，比如test2
+
+​            --dir： 备份数据所在位置，例如：/home/mongodump/itcast/
+
+​            --drop： 恢复的时候，先删除当前数据，然后恢复备份的数据。就是说，恢复后，备份后添加修改的数据都会被删除，慎用！
+
+​    
