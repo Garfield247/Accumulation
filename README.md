@@ -56,9 +56,9 @@
 
     [02Pandas.md](./Language/Python/MachineLearning/02Pandas.md)
 
-    [03pandas层次化索引.md](./Language/Python/MachineLearning/03pandas层次化索引.md)
-
     [03Pandas的拼接操作.md](./Language/Python/MachineLearning/03Pandas的拼接操作.md)
+
+    [03pandas层次化索引.md](./Language/Python/MachineLearning/03pandas层次化索引.md)
 
     [04Pandas数据处理.md](./Language/Python/MachineLearning/04Pandas数据处理.md)
 
@@ -76,19 +76,13 @@
 
 - ./Language/Python/Other
 
-    [正则表达式.md](./Language/Python/Other/正则表达式.md)
-
     [Python3_Paramiko远程shell.md](./Language/Python/Other/Python3_Paramiko远程shell.md)
 
     [Python进阶.md](./Language/Python/Other/Python进阶.md)
 
     [Web基础.md](./Language/Python/Other/Web基础.md)
 
-- ./Language/Shell
-
-    [linux常用脚本.md](./Language/Shell/linux常用脚本.md)
-
-    [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
+    [正则表达式.md](./Language/Python/Other/正则表达式.md)
 
 - ./Language/SQL
 
@@ -116,49 +110,55 @@
 
     [深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf](./Language/SQL/深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf)
 
+- ./Language/Shell
+
+    [linux_shell教程.md](./Language/Shell/linux_shell教程.md)
+
+    [linux常用脚本.md](./Language/Shell/linux常用脚本.md)
+
 - ./Linux
 
 - ./Linux/Centos7
 
-    [守护进程.md](./Linux/Centos7/守护进程.md)
-
-    [Centos7创建服务及开机启动.md](./Linux/Centos7/Centos7创建服务及开机启动.md)
+    [CentOS7相关配置.md](./Linux/Centos7/CentOS7相关配置.md)
 
     [CentOS7爬虫环境搭建.md](./Linux/Centos7/CentOS7爬虫环境搭建.md)
-
-    [Centos7时区更改.md](./Linux/Centos7/Centos7时区更改.md)
-
-    [CentOS7相关配置.md](./Linux/Centos7/CentOS7相关配置.md)
 
     [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
 
     [Centos7selenium.md](./Linux/Centos7/Centos7selenium.md)
 
+    [Centos7时区更改.md](./Linux/Centos7/Centos7时区更改.md)
+
+    [Centos7创建服务及开机启动.md](./Linux/Centos7/Centos7创建服务及开机启动.md)
+
     [Nginx安装.md](./Linux/Centos7/Nginx安装.md)
 
     [RedisLive配置手册.md](./Linux/Centos7/RedisLive配置手册.md)
 
+    [守护进程.md](./Linux/Centos7/守护进程.md)
+
 - ./Linux/Common
 
-    [目录结构及VIM.md](./Linux/Common/目录结构及VIM.md)
-
-    [认识Linux.md](./Linux/Common/认识Linux.md)
-
-    [软件安装.md](./Linux/Common/软件安装.md)
-
-    [文件操作.md](./Linux/Common/文件操作.md)
-
-    [系统服务.md](./Linux/Common/系统服务.md)
-
     [Home目錄下中文改英文.md](./Linux/Common/Home目錄下中文改英文.md)
+
+    [Linux.md](./Linux/Common/Linux.md)
+
+    [SpaceVIM.md](./Linux/Common/SpaceVIM.md)
 
     [linux定时任务.md](./Linux/Common/linux定时任务.md)
 
     [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
 
-    [Linux.md](./Linux/Common/Linux.md)
+    [认识Linux.md](./Linux/Common/认识Linux.md)
 
-    [SpaceVIM.md](./Linux/Common/SpaceVIM.md)
+    [文件操作.md](./Linux/Common/文件操作.md)
+
+    [系统服务.md](./Linux/Common/系统服务.md)
+
+    [软件安装.md](./Linux/Common/软件安装.md)
+
+    [目录结构及VIM.md](./Linux/Common/目录结构及VIM.md)
 
 - ./Linux/Deepin
 
@@ -166,11 +166,13 @@
 
 - ./Linux/Manjaro
 
+    [Manjaro-pacman命令.md](./Linux/Manjaro/Manjaro-pacman命令.md)
+
+    [ManjaroGnome常见问题解决方案.md](./Linux/Manjaro/ManjaroGnome常见问题解决方案.md)
+
     [Manjaro初始配置.md](./Linux/Manjaro/Manjaro初始配置.md)
 
     [manjaroKDE安装配置.md](./Linux/Manjaro/manjaroKDE安装配置.md)
-
-    [Manjaro-pacman命令.md](./Linux/Manjaro/Manjaro-pacman命令.md)
 
 - ./Linux/Other
 
@@ -180,15 +182,9 @@
 
 - ./Linux/Ubuntu
 
-    [apt_info.md](./Linux/Ubuntu/apt_info.md)
-
-    [dpkg.md](./Linux/Ubuntu/dpkg.md)
-
     [GoogleChromeinstall.md](./Linux/Ubuntu/GoogleChromeinstall.md)
 
     [MongoDB_install.md](./Linux/Ubuntu/MongoDB_install.md)
-
-    [pyenv_install.md](./Linux/Ubuntu/pyenv_install.md)
 
     [Sdkman.md](./Linux/Ubuntu/Sdkman.md)
 
@@ -196,7 +192,15 @@
 
     [Ubuntu安装oh_my_zsh.md](./Linux/Ubuntu/Ubuntu安装oh_my_zsh.md)
 
-    [ubuntu备份还原.md](./Linux/Ubuntu/ubuntu备份还原.md)
+    [VSCodeInstall.md](./Linux/Ubuntu/VSCodeInstall.md)
+
+    [apt_info.md](./Linux/Ubuntu/apt_info.md)
+
+    [dpkg.md](./Linux/Ubuntu/dpkg.md)
+
+    [pyenv_install.md](./Linux/Ubuntu/pyenv_install.md)
+
+    [ubuntu_Typora安装.md](./Linux/Ubuntu/ubuntu_Typora安装.md)
 
     [ubuntu_apt_source.md](./Linux/Ubuntu/ubuntu_apt_source.md)
 
@@ -208,23 +212,21 @@
 
     [ubuntu_sougouInput_install.md](./Linux/Ubuntu/ubuntu_sougouInput_install.md)
 
-    [ubuntu_Typora安装.md](./Linux/Ubuntu/ubuntu_Typora安装.md)
-
     [ubuntu_wechat_install.md](./Linux/Ubuntu/ubuntu_wechat_install.md)
 
-    [VSCodeInstall.md](./Linux/Ubuntu/VSCodeInstall.md)
+    [ubuntu备份还原.md](./Linux/Ubuntu/ubuntu备份还原.md)
+
+- ./MacOS
+
+    [MACBOOK初始配置.md](./MacOS/MACBOOK初始配置.md)
+
+    [MACBook安装SDKman.md](./MacOS/MACBook安装SDKman.md)
+
+    [MACBook安装pyenv.md](./MacOS/MACBook安装pyenv.md)
 
     [README.md](./README.md)
 
 - ./Utils
-
-- ./Utils/git
-
-    [git操作.png](./Utils/git/git操作.png)
-
-    [Git.md](./Utils/git/Git.md)
-
-    [ProGit.pdf](./Utils/git/ProGit.pdf)
 
 - ./Utils/GnomeTheme
 
@@ -236,11 +238,17 @@
 
     [macOS11-Shell.zip](./Utils/GnomeTheme/macOS11-Shell.zip)
 
+- ./Utils/Markdown
+
+    [Markdown_basic.md](./Utils/Markdown/Markdown_basic.md)
+
+    [Markdown_mermaid.md](./Utils/Markdown/Markdown_mermaid.md)
+
 - ./Utils/Other
 
-    [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
-
     [linux.jpg](./Utils/Other/linux.jpg)
+
+    [linuxbranch.jpg](./Utils/Other/linuxbranch.jpg)
 
     [mysql8.0加密错误.md](./Utils/Other/mysql8.0加密错误.md)
 
@@ -263,6 +271,14 @@
 - ./Utils/VsCode
 
     [VsCode.md](./Utils/VsCode/VsCode.md)
+
+- ./Utils/git
+
+    [Git.md](./Utils/git/Git.md)
+
+    [ProGit.pdf](./Utils/git/ProGit.pdf)
+
+    [git操作.png](./Utils/git/git操作.png)
 
 - ./windows
 
