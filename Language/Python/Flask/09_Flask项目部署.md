@@ -1,119 +1,108 @@
-# Flask项目部署
+# Centos7+Nginx+uWsgi部署Flask项目
 
-### WEB工作原理
+## 安装
 
-- 客户端 <=> WEB服务器(apache/nginx) <=> uWSGI <=> Python(Flask) <=> 数据库
+### Nginx
 
-### nginx安装
+#### 第一步 - 添加Nginx存储库
 
-- 将共享的文件拷贝到虚拟机
-- 关闭selinux和iptables
-- 安装过程见《nginx安装.txt》
+要添加CentOS 7 EPEL仓库，请打开终端并使用以下命令：
 
-### 虚拟主机配置
+```
+sudo yum install epel-release
+```
 
-- 在主配置文件(/usr/local/nginx/conf/nginx.conf)最后一个大括号的上面添加一行内容：`include vhost/*.conf;`
+#### 第二步 - 安装Nginx
 
-- 创建vhost文件夹：`mkdir vhost`
+现在Nginx存储库已经安装在您的服务器上，使用以下`yum`命令安装Nginx ：
 
-- 在vhost目录下创建一个虚拟主机的配置文件，如：www.test.com.conf
+```
+sudo yum install nginx -y
+```
 
-  ```nginx
-  server {
-      listen 80;
-      server_name www.test.com test.com;
+#### 第三步 - 启动Nginx
 
-      location / {
-          root html/test;
-          index index.html;
-      }
-  }
-  ```
+Nginx不会自行启动。要运行Nginx，请输入：
 
-- windows下修改文件：`C:\Windows\System32\drivers\etc\hosts`
+```
+sudo systemctl start nginx
+```
 
-  ```
-  10.0.108.130		www.test.com
-  ```
+#### 第四步 - 设置开机自启
 
-### uWSGI
+```
+systemctl enable nginx
+```
 
-- 安装uwsgi：`pip3 install uwsgi`
+### uWsgi
 
-- 添加软链接：`ln -s /usr/local/python3/bin/uwsgi /usr/bin/uwsgi`
+直接使用pip安装
 
-- 配置http
+```
+pip install uwsgi
+```
 
-  `uwsgi --http 10.0.108.130:5000 --wsgi-file blog.py --callable app`
+## 关闭防火墙
 
-- 配置socket
+### firewall
 
-  `uwsgi --socket 127.0.0.1:5000 --wsgi-file blog.py --callable app`
+```
+systemctl stop firewalld.service #停止firewall
+systemctl disable firewalld.service #禁止firewall开机启动
+firewall-cmd --state #查看默认防火墙状态（关闭后显示notrunning，开启后显示running）
+```
 
-- 配置选项
+### selinux
 
-  ```
-  --http			# 采用http协议
-  --socket		# socket进行通信
-  --wsgi-file		# 将数据交给哪个模块
-  --callable		# 具体交给哪个对象
-  ```
+```
+vim /etc/sysconfig/selinux
+```
 
-### 完整部署
+SELINUX=enforcing 改为 SELINUX=disabled
 
-- nginx虚拟主机
+重启服务reboot
 
-  ```nginx
-  server {
-      listen 80;
-      server_name www.test.com test.com;
+## 配置
 
-      location / {
-          include uwsgi_params;
-      	uwsgi_pass 127.0.0.1:5000;
-      }
-  }
-  ```
+Uwsgi
 
-- uwsgi配置
+```uwsgi
+[uwsgi]
+socket = 127.0.0.1:5051
+pythonpath = {项目路径}
+module = {启动文件名称(不加py)}
+wsgi-file = {启动文件的path}
+callable = app
+processes = 4
+threads = 2
+daemonize = {日志存放路径}
+```
 
-  命令：`uwsgi --socket 127.0.0.1:5000 --wsgi-file blog.py --callable app`
+Nginx
 
-  文件：
+vi /etc/nginx/conf.d/flask.conf
 
-  ```ini
-  [uwsgi]
-  socket = 127.0.0.1:5000
-  wsgi-file = blog.py
-  callable = app
-  ```
+```
+server {
+        listen       80;         //默认的web访问端口
+        server_name  xxxxxx;     //服务器名
+        #charset koi8-r;
+        access_log  /var/logs/nginx/access.log;    //服务器接收的请求日志，logs目录若不存在需要创建，否则nginx报错
+        error_log  /var/logs/nginx/error.log;         //错误日志
 
-- flask，blog.py文件
+        location / {
 
-  ```python
-  from flask import Flask
+            include        uwsgi_params;     //这里是导入的uwsgi配置
 
-  app = Flask(__name__)
+            uwsgi_pass     127.0.0.1:5051;   //需要和uwsgi的配置文件里socket项的地址
+                                             //相同,否则无法让uwsgi接收到请求。
 
-  @app.route('/')
-  def index():
-      return 'Hello Flask'
+            uwsgi_param UWSGI_CHDIR  /flask;     //项目根目录
 
-  if __name__ == '__main__':
-      app.run()
-  ```
+            uwsgi_param UWSGI_SCRIPT manage:app;     //启动项目的主程序(在本地上运行
+                                                     //这个主程序可以在flask内置的
+                                                     //服务器上访问你的项目)
+}
+}
+```
 
-- 静态资源处理
-
-  ```nginx
-  server {
-    	location /static {
-        	root html/test;
-    	}
-    	...
-  }
-  ```
-
-  > 测试：在html/test下创建static目录，然后拷贝一张图片
-  >
-  > 浏览器输入：www.test.com/static/123.jpg
