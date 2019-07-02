@@ -224,6 +224,8 @@
 
     [MACBook安装pyenv.md](./MacOS/MACBook安装pyenv.md)
 
+    [Mac键盘快捷键.md](./MacOS/Mac键盘快捷键.md)
+
     [README.md](./README.md)
 
 - ./Utils
