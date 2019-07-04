@@ -86,27 +86,7 @@
 
 - ./Language/SQL
 
-    [01-SQL简介.md](./Language/SQL/01-SQL简介.md)
-
-    [02-SQL语法.md](./Language/SQL/02-SQL语法.md)
-
-    [03-SQL-SELECT语句.md](./Language/SQL/03-SQL-SELECT语句.md)
-
-    [04-SELECT-DISTINCT语句.md](./Language/SQL/04-SELECT-DISTINCT语句.md)
-
-    [05-BETWEEN子句.md](./Language/SQL/05-BETWEEN子句.md)
-
-    [06-AND-OR运算符.md](./Language/SQL/06-AND-OR运算符.md)
-
-    [07-ORDER_BY关键字.md](./Language/SQL/07-ORDER_BY关键字.md)
-
-    [08-SQL-INSERT-INTO语句.md](./Language/SQL/08-SQL-INSERT-INTO语句.md)
-
-    [09-SQL-UPDATE语句.md](./Language/SQL/09-SQL-UPDATE语句.md)
-
-    [10-SQL-DELETE语句.md](./Language/SQL/10-SQL-DELETE语句.md)
-
-    [11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md](./Language/SQL/11-SQL-SELECT-TOP-LIMIT-ROWNUM子句.md)
+    [MySQL.md](./Language/SQL/MySQL.md)
 
     [深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf](./Language/SQL/深入浅出MySQL：数据库开发、优化与管理维护.第2版.pdf)
 
@@ -259,6 +239,8 @@
     [weibo.json](./Utils/Other/weibo.json)
 
     [xpath.crx](./Utils/Other/xpath.crx)
+
+    [激活码19c052901.txt](./Utils/Other/激活码19c052901.txt)
 
 - ./Utils/Sublime
 
