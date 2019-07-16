@@ -20,8 +20,8 @@ vi /etc/init.d/{server}
 #chkconfig: 2345 80 90
 #description:auto_run
 PORT=6800 #服务内容
-HOME="/var/scrapyd" #日志路径
-BIN="/project/.env_scrapyd/bin/scrapyd" #启动命令
+HOME="" #日志路径
+BIN="" #启动命令
 
 pid=`netstat -lnopt | grep :$PORT | awk '/python/{gsub(/\/python/,"",$7);print $7;}'`
 start() {
@@ -31,7 +31,7 @@ start() {
    fi
 
    cd $HOME
-   nohup $BIN >> $HOME/scrapyd.log 2>&1 &
+   nohup $BIN >> $HOME/s.log 2>&1 &
    echo "start at port:$PORT"
 }
 

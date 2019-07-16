@@ -100,23 +100,23 @@
 
 - ./Linux/Centos7
 
+    [CentOS7安装Mysql5.7.md](./Linux/Centos7/CentOS7安装Mysql5.7.md)
+
+    [CentOS7安装Python3.x.md](./Linux/Centos7/CentOS7安装Python3.x.md)
+
+    [CentOS7安装Redis.md](./Linux/Centos7/CentOS7安装Redis.md)
+
     [CentOS7相关配置.md](./Linux/Centos7/CentOS7相关配置.md)
 
-    [CentOS7爬虫环境搭建.md](./Linux/Centos7/CentOS7爬虫环境搭建.md)
+    [Centos7Nginx安装配置.md](./Linux/Centos7/Centos7Nginx安装配置.md)
 
     [Centos7_MongoDB_install.md](./Linux/Centos7/Centos7_MongoDB_install.md)
 
-    [Centos7selenium.md](./Linux/Centos7/Centos7selenium.md)
-
-    [Centos7时区更改.md](./Linux/Centos7/Centos7时区更改.md)
+    [Centos7创建守护进程.md](./Linux/Centos7/Centos7创建守护进程.md)
 
     [Centos7创建服务及开机启动.md](./Linux/Centos7/Centos7创建服务及开机启动.md)
 
-    [Nginx安装.md](./Linux/Centos7/Nginx安装.md)
-
     [RedisLive配置手册.md](./Linux/Centos7/RedisLive配置手册.md)
-
-    [守护进程.md](./Linux/Centos7/守护进程.md)
 
 - ./Linux/Common
 
