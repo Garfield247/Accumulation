@@ -252,6 +252,8 @@
 
     [sublime_setting.json](./Utils/Sublime/sublime_setting.json)
 
+    [sublime_text3_package_control.md](./Utils/Sublime/sublime_text3_package_control.md)
+
 - ./Utils/VsCode
 
     [VsCode.md](./Utils/VsCode/VsCode.md)
