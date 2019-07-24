@@ -51,3 +51,7 @@ fi
 sleep 60 #每 60s检查一次
 done
 ```
+## 按文件夹进行压缩
+```
+for i in `find ./* -type d`;do zip $i.zip ./$i/;done
+```
