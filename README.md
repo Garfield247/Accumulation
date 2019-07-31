@@ -82,6 +82,8 @@
 
     [Web基础.md](./Language/Python/Other/Web基础.md)
 
+    [优化Python内存占用.md](./Language/Python/Other/优化Python内存占用.md)
+
     [正则表达式.md](./Language/Python/Other/正则表达式.md)
 
 - ./Language/SQL
@@ -245,6 +247,8 @@
 - ./Utils/Sublime
 
     [channel_v3.json](./Utils/Sublime/channel_v3.json)
+
+    [dict字典tuple元组set集合list列表string字符串概对比.md](./Utils/Sublime/dict字典tuple元组set集合list列表string字符串概对比.md)
 
     [python.tmpl](./Utils/Sublime/python.tmpl)
 
