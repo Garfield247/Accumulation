@@ -128,6 +128,8 @@
 
     [SpaceVIM.md](./Linux/Common/SpaceVIM.md)
 
+    [VIM提高.md](./Linux/Common/VIM提高.md)
+
     [linux定时任务.md](./Linux/Common/linux定时任务.md)
 
     [linux开机启动任务.md](./Linux/Common/linux开机启动任务.md)
@@ -206,6 +208,8 @@
 
     [MACBook安装pyenv.md](./MacOS/MACBook安装pyenv.md)
 
+    [MacosMySQLMongoDBRedis安装.md](./MacOS/MacosMySQLMongoDBRedis安装.md)
+
     [Mac键盘快捷键.md](./MacOS/Mac键盘快捷键.md)
 
     [README.md](./README.md)
@@ -229,6 +233,8 @@
     [Markdown_mermaid.md](./Utils/Markdown/Markdown_mermaid.md)
 
 - ./Utils/Other
+
+    [license.dash-license](./Utils/Other/license.dash-license)
 
     [linux.jpg](./Utils/Other/linux.jpg)
 
@@ -267,6 +273,8 @@
     [Git.md](./Utils/git/Git.md)
 
     [ProGit.pdf](./Utils/git/ProGit.pdf)
+
+    [centos7安装GitLab.md](./Utils/git/centos7安装GitLab.md)
 
     [git操作.png](./Utils/git/git操作.png)
 
