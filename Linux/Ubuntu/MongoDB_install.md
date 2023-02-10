@@ -34,11 +34,11 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF50
 sudo apt-get install dirmngr
 ```
 
-**2.创建 MongoDB 的软件源 /etc/apt/sources.list.d/mongodb-org-3.6.list** 
+**2.创建 MongoDB 的软件源 /etc/apt/sources.list.d/mongodb-org-3.6.list**
 可以选择安装 Debian 7 的 `Wheezy` 仓库
 
 ```
-echo "deb http://repo　.mongodb.org/apt/debian wheezy/mongodb-org/3.6 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list1
+echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.6 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 ```
 
 也可以使用 Debian 8 的 `Jessie`　仓库
@@ -64,7 +64,7 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 
-**安装 MongoDB 的特定版本** 
+**安装 MongoDB 的特定版本**
 要安装特定发行版，必须单独地指定每个组件包以及版本号，如下例所示：
 
 ```
@@ -99,7 +99,7 @@ sudo chown -R mongodb:mongodb /home/mongodb
 命令启动 MongoDB 的 `mongod` 服务项
 
 ```
-sudo systemctl start mongod 
+sudo systemctl start mongod
 ```
 
 **2. 停止 MongoDB 服务**
@@ -114,7 +114,7 @@ sudo systemctl stop mongod
 sudo systemctl restart mongod
 ```
 
-**4.设置开机启动或禁用 MOngoDB 开机自启** 
+**4.设置开机启动或禁用 MOngoDB 开机自启**
 设置开机自启
 
 ```
@@ -139,23 +139,23 @@ mongo
 
 ### 七.删除 MongoDB
 
-要从系统中完全删除 `MongoDB`，必须删除 `MongoDB` 应用程序本身，配置文件以及包含数据和日志的任何目录。 
+要从系统中完全删除 `MongoDB`，必须删除 `MongoDB` 应用程序本身，配置文件以及包含数据和日志的任何目录。
 **Note: **这个删除MongoDB过程是不可逆的，包括程序配置文件、数据库文件都将被删除。所以，删除前，请备份好配置文件和数据库文件。
 
 **1. 停止 MongoDB 服务**
 
 ```
-sudo systemctl stop mongod 
+sudo systemctl stop mongod
 ```
 
-**2.删除软件** 
+**2.删除软件**
 移除已经安装的MongoDB程序
 
 ```
 sudo apt-get purge mongodb-org*
 ```
 
-**3.删除数据目录** 
+**3.删除数据目录**
 删除 MongoDB 数据库文件和日志文件
 
 ```
