@@ -51,7 +51,17 @@ fi
 sleep 60 #每 60s检查一次
 done
 ```
+
 ## 按文件夹进行压缩
+
 ```
 for i in `find ./* -type d`;do zip $i.zip ./$i/;done
+```
+
+## 按照正则匹配并统计文本出现次数
+
+示例:统计 access_log中 各路由的调用次数
+
+```
+grep -h -oP 'POST \K(.*?)(?= HTTP/1.1)' /opt/logs/nginx/access.log* | sort | uniq -c
 ```

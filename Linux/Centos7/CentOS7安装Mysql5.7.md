@@ -1,9 +1,8 @@
-# CentOS7安装MySQL5.7
+# CentOS7 安装 MySQL5.7
 
 ## 安装
 
-
-1. 先检查系统是否装有mysql
+1. 先检查系统是否装有 mysql
 
    ```shell
    rpm -qa | grep mysql
@@ -23,31 +22,35 @@
    yum -y remove mysql
    ```
 
-4. 下载mysql的repo源
+4. 导入 mysql 的 repo 秘钥
+
+   ```
+   rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+   ```
+
+5. 下载 mysql 的 repo 源
 
    ```
    wget http://repo.mysql.com/mysql57-community-release-el7-10.noarch.rpm
    ```
 
-5. 安装rpm包
+6. 安装 rpm 包
 
    ```
    sudo rpm -Uvh mysql57-community-release-el7-10.noarch.rpm
    ```
 
-6. 安装mysql
+7. 安装 mysql
 
    ```
    yum install  -y  mysql-community-server
    ```
 
-7. 启动mysql
+8. 启动 mysql
 
    ```
    service mysqld start
    ```
-
-   
 
 ## 重置初始密码
 
@@ -57,7 +60,7 @@
    grep 'temporary password' /var/log/mysqld.log
    ```
 
-   复制root@localhost:后面的密码
+   复制 root@localhost:后面的密码
 
 2. 登录
 
@@ -73,22 +76,18 @@
    mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'yourpassword';
    ```
 
-   若报错1819，进行如下操作,	再进行修改：
+   若报错 1819，进行如下操作, 再进行修改：
 
    ```sql
    mysql> set global validate_password_policy=0;
    mysql> set global validate_password_length=1;
    ```
 
-   
-
-##   允许远程登录
+## 允许远程登录
 
 ```sql
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'yourpassword' WITH GRANT OPTION;
 ```
-
-
 
 ## 数据库编码
 
@@ -98,20 +97,14 @@ mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'yourpassword' WI
    mysql> show variables like "%char%";
    ```
 
- 2. 修改mysql的`/etc/my.cnf` 文件中的字符集键值，在[mysqld]字段里加入 
+2. 修改 mysql 的`/etc/my.cnf` 文件中的字符集键值，在[mysqld]字段里加入
 
-    ```
-    character_set_server=utf8
-    ```
+   ```
+   character_set_server=utf8
+   ```
 
-3. 重启mysql
+3. 重启 mysql
 
    ```
    service mysqld restart
    ```
-
-   
-
-
-
-
